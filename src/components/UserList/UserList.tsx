@@ -1,6 +1,6 @@
 import { Col, Container, Row, Form } from "react-bootstrap";
 import UserInfo from "../UserInfo/UserInfo";
-import { User } from "./interfaces";
+import { User } from "../../interfaces";
 import React, { useState } from "react";
 
 type Props = {

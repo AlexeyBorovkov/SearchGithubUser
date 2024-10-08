@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import SearchInput from "./components/SearchInput/SearchInput";
 import { searchUsers } from "./api/api";
-import { User } from "./components/UserList/interfaces";
+import { User } from "./interfaces";
 import UserList from "./components/UserList/UserList";
 import ReactPaginate from "react-paginate";
 import Form from "react-bootstrap/Form";

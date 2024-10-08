@@ -2,7 +2,7 @@ import Card from "react-bootstrap/esm/Card";
 import Button from "react-bootstrap/esm/Button";
 import Modal from "react-bootstrap/esm/Modal";
 import { useState } from "react";
-import { User } from "../UserList/interfaces";
+import { User } from "../../interfaces";
 
 const UserInfo = ({ login, followers, following, avatar_url, public_repos }: User) => {
   const [showModal, setShowModal] = useState(false);
