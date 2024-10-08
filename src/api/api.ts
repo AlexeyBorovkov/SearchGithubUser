@@ -13,13 +13,13 @@ interface SearchResult {
   }
   
   const API_URL = "https://api.github.com";
-  // const TOKEN = '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'; 
+ 
   
   const fetchApi = async (url: string) => {
     const response = await fetch(`${API_URL}${url}`, {
       method: "GET",
       headers: {
-        // "Authorization": `Bearer ${TOKEN}`,
+        
         "Content-Type": "application/json",
       },
     });
