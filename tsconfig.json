@@ -3,5 +3,10 @@
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
-  ]
+  ],
+  "compilerOptions": {
+    // ... другие опции конфигурации ...
+    "module": "commonjs",
+    "moduleResolution": "node",
+  }
 }
